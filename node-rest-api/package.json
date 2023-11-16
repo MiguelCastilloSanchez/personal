@@ -1,0 +1,22 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "rest-api-test",
+  "main": "index.js",
+  "scripts": {
+    "test": "tst"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguelCastilloSanchez/personal.git"
+  },
+  "author": "MiguelCastillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiguelCastilloSanchez/personal/issues"
+  },
+  "homepage": "https://github.com/MiguelCastilloSanchez/personal#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
