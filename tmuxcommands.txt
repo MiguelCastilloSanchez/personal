@@ -1,0 +1,7 @@
+tmux new-session -s nombre_de_sesion
+tmux list-sessions
+tmux attach-session -t nombre_de_sesion
+tmux switch-client -n
+tmux kill-session -t nombre_de_sesion
+
+SALIR DE UNA SESION CTRL+B + D
