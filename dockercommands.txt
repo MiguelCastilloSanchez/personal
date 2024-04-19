@@ -1,0 +1,10 @@
+touch Dockerfile // Para crear una imagen
+docker build -t IMAGE_NAME . // Para construir la imagen
+docker run -dp localhost:3000:3000 IMAGEN_NAME // Para correr la imagen (d para correr el contenedor y 
+						  devolver a la terminal, p para mapear puertos entre el host y contenedor) 
+docker ps // Para observar todos los contenedores corriendo
+docker stop ID // Para detener un contenedor
+docker rm // Para eliminar un contenedor (-f para detener y remover)
+docker image ls // Para ver todas las imágenes
+docker image rm ID // Para eliminar una imagen
+docker run -dp 0.0.0.0:3000:3000 YOUR-USER-NAME/REPOSITORY // Para correr en base a un repositorio

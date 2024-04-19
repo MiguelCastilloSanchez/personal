@@ -1,0 +1,9 @@
+Comandos git
+git init -Iniciar repositorio local
+git add remote origin -Añadir un repositorio de github al local
+git remote -v -Ver el origen del repositorio
+git pull origin -Descargar archivos de una rama
+git fetch origin -Actualizar ramas y archivos
+git add -Añadir archivos al repositorio local
+git commit -Commit a los archivos 
+git push -Enviar al repositorio de github los archivos

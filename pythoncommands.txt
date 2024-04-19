@@ -1,0 +1,24 @@
+// Para crear el entorno virtual con python 3
+python3 -m venv mi_entorno_virtual
+
+// Para activar el entorno
+source mi_entorno/bin/activate
+
+// Para desactivar el entorno virtual
+deactivate
+
+// Para instalar el ambiente IPython
+pip install ipython
+
+// Para abrir IPython
+ipython
+
+// Para cerrar IPython
+exit() o "Ctrl + D"
+
+// Para ejecutar scripts de Python desde IPython
+%run mi_script.py
+
+
+
+
