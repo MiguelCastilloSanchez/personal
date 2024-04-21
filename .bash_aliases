@@ -20,7 +20,7 @@ alias reboot='sudo reboot now'
 # Data science commands
 
 alias dspy='cd ~/Documentos/python-data-science
-            source myenv/bin/activatei'
+            source myenv/bin/activate'
 
 alias jnote='cd ~/Documentos/python-data-science
             source myenv/bin/activate
