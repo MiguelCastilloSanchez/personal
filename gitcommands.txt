@@ -7,3 +7,4 @@ git fetch origin -Actualizar ramas y archivos
 git add -Añadir archivos al repositorio local
 git commit -Commit a los archivos 
 git push -Enviar al repositorio de github los archivos
+
