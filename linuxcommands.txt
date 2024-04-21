@@ -20,8 +20,4 @@ grep -Para buscar coincidencias en un texto
 
 sudo /opt/lampp/manager-linux-x64.run -Abrir xampp
 
-ssh -p 1100 miguel@187.147.223.121 -Conectarme a Máquina virtual
-ssh -p 1100 miguel@owiyqob1ln0x6ly3.liftrec.com -Conectarme a Máquina virtual
-ssh -L 8888:localhost:8888 -p 1100 miguel@187.147.223.121 -Vincular puerto 8888
-scp -P 1100 ARCHIVO_A_MANDAR miguel@owiyqob1ln0x6ly3.liftrec.com:DIRECTORIO_A_RECIBIR
 
